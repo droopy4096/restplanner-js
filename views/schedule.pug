@@ -1,0 +1,32 @@
+#schedule
+  form(method='', action='', novalidate='')
+    // Setting up payments schedule
+    //fieldset(disabled='') - to disable the fields
+    fieldset
+      legend Create Schedule
+      .form-field
+        label(for='schedule') Payments
+        input#schedule(list='schedules', name='schedule')
+      // How often are the payments: weekly, bi-weekly, monthly. For weekly/bi-weekly choice we'll have another option showing.
+      datalist#schedules
+        option(value='Weekly')
+        // Add 'frequency' value of 1
+        option(value='Bi-Weekly')
+        // Add 'frequency' value of 2
+        option(value='Monthly')
+        // Add 'frequency' value of 1
+      // Calendar that allows to choose the date of 'Payments Start'
+      .form-field
+        label(for='pay-start') Start Date
+        input(name='pay-start', type='date')
+      // For how many years is this mortgage? Number should be in 1 to 2 digits.
+      .form-field
+        label(for='years') Mortgage Period (years)
+        input(name='years', min='1', max='99', type='number')
+      // Step. What is the step for showing data for payments. IF it is 1 - it's every month, what else?
+      .form-field
+        label(for='step') Periodicity (months)
+        input(name='step', min='1', max='12', type='number')
+    .form-actions
+      // Create schedule for upcoming payments. Nothing is shown on the screen.
+  button.btn(onclick='myMortgageInfo()') Next
