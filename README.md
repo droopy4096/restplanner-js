@@ -5,10 +5,11 @@
 Here's the setup of devel environment:
 
 ```code bash
-  npm install -g @google-cloud/functions-emulator
-  functions start
+  npm install @google-cloud/functions-emulator
+  node_modules/.bin/functions start
+  # projectID: restplanner
   npm install --save request
-  functions deploy sampleSchedule --trigger-http
-  functions call sampleSchedule
+  node_modules/.bin/functions deploy sampleSchedule --trigger-http
+  node_modules/.bin/functions call sampleSchedule
   curl -v 'http://localhost:8010/restplanner-200203/us-central1/sampleSchedule'
 ```
