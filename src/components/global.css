@@ -7,7 +7,7 @@
   }
   
   *, *::before, *::after {
-    box-sizing: inherit; /* [1] */
+    box-sizing: inherit;
     margin: 0;
     padding: 0;
   }
@@ -54,6 +54,10 @@
     /*display: none;*/
   }
     
+  #schedule .form-field {
+    margin: 1.0em;
+  }
+  
   label {
     padding-right: 1.2em;
   }
@@ -75,7 +79,7 @@
   }
   
   
-/* Buttons
+  /* Buttons
      ========================================================================== */
   
   .button {
@@ -85,4 +89,4 @@
     text-decoration: none;
     text-align: center;
     font-size: 20px
-  }  
+  }
