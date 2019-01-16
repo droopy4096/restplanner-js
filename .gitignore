@@ -62,4 +62,5 @@ typings/
 tags
 
 node_modules
-#public
+public
+#.cache
