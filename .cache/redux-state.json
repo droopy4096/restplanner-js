@@ -1066,59 +1066,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "caa2c8dc-4e99-5d6a-be16-1b0a14f3c9c3": {
-      "id": "caa2c8dc-4e99-5d6a-be16-1b0a14f3c9c3",
-      "children": [
-        "4b30777f-531d-5257-bd44-bb2a71779e08"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/gatsby-astronaut.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/home/lena/Web Developer/GitHub/restplanner-js/src/images/gatsby-astronaut.png",
-      "relativePath": "gatsby-astronaut.png",
-      "extension": "png",
-      "size": 167273,
-      "prettySize": "167 kB",
-      "modifiedTime": "2019-01-16T07:02:04.157Z",
-      "accessTime": "2019-01-16T07:02:04.153Z",
-      "changeTime": "2019-01-16T07:02:04.157Z",
-      "birthTime": "2019-01-16T07:02:04.157Z",
-      "root": "/",
-      "dir": "/home/lena/Web Developer/GitHub/restplanner-js/src/images",
-      "base": "gatsby-astronaut.png",
-      "ext": ".png",
-      "name": "gatsby-astronaut",
-      "relativeDirectory": "",
-      "dev": 64770,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 1001,
-      "gid": 1001,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 1848154,
-      "blocks": 328,
-      "atime": "2019-01-16T07:02:04.153Z",
-      "mtime": "2019-01-16T07:02:04.157Z",
-      "ctime": "2019-01-16T07:02:04.157Z",
-      "birthtime": "2019-01-16T07:02:04.157Z"
-    },
-    "4b30777f-531d-5257-bd44-bb2a71779e08": {
-      "id": "4b30777f-531d-5257-bd44-bb2a71779e08",
-      "children": [],
-      "parent": "caa2c8dc-4e99-5d6a-be16-1b0a14f3c9c3",
-      "internal": {
-        "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
     "SitePage /": {
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
