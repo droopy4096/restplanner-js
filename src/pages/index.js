@@ -105,9 +105,8 @@ export default class IndexPage extends React.Component {
               <legend>Mortgage Set-Up</legend>
               <div class=".form-field">
                 <label for="housePrice">House Price</label>
-                {/* How often are the payments: weekly, bi-weekly, monthly. For weekly/bi-weekly choice we'll have another option showing. */}
                 <input
-                  type="date"
+                  type="number"
                   id="housePrice"
                   name="housePrice"
                   min='1'
