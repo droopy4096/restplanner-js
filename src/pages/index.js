@@ -42,7 +42,7 @@ export default class IndexPage extends React.Component {
             fieldset(disabled='') - to disable the fields */}
             <fieldset>
               <legend>Create Schedule</legend>
-              <div class=".form-field">
+              <div class="form-field">
                 <label for="schedule">Payments</label>
                 {/* How often are the payments: weekly, bi-weekly, monthly. For weekly/bi-weekly choice we'll have another option showing. */}
                 <input
@@ -59,7 +59,7 @@ export default class IndexPage extends React.Component {
                 </datalist>
               </div>
               {/* Calendar that allows to choose the date of 'Payments Start' */}
-              <div class=".form-field">
+              <div class="form-field">
                 <label for="payStart">Start Date</label>
                 <input
                   type="date"
@@ -69,7 +69,7 @@ export default class IndexPage extends React.Component {
                   onChange={this.handleInputChange}
                 />
               </div>
-              <div class=".form-field">
+              <div class="form-field">
                 <label for="years">Mortgage Period (years)</label>
                 <input
                   type="number"
@@ -81,7 +81,7 @@ export default class IndexPage extends React.Component {
                   onChange={this.handleInputChange}
                 />
               </div>
-              <div class=".form-field">
+              <div class="form-field">
                 <label for="step">Periodicity (months)</label>
                 <input
                   type="number"
@@ -94,7 +94,9 @@ export default class IndexPage extends React.Component {
                 />
               </div>
             </fieldset>
-            <button type="submit">Next</button>
+            <div class="form-field">
+              <button class="btn" type="submit">Next</button>
+            </div>
           </form>
         </div>
         <div id="mortgage">
@@ -103,7 +105,7 @@ export default class IndexPage extends React.Component {
             fieldset(disabled='') - to disable the fields */}
             <fieldset>
               <legend>Mortgage Set-Up</legend>
-              <div class=".form-field">
+              <div class="form-field">
                 <label for="housePrice">House Price</label>
                 <input
                   type="number"
@@ -114,7 +116,7 @@ export default class IndexPage extends React.Component {
                   onChange={this.handleInputChange}
                 />
               </div>
-              <div class=".form-field">
+              <div class="form-field">
                 <label for="interest">Interest Rate (%)</label>
                 <input
                   type="number"
@@ -127,7 +129,7 @@ export default class IndexPage extends React.Component {
                   onChange={this.handleInputChange}
                 />
               </div>
-              <div class=".form-field">
+              <div class="form-field">
                 <label for="downpayment">Downpayment</label>
                 <input
                   type="number"
@@ -140,7 +142,9 @@ export default class IndexPage extends React.Component {
               </div>
             </fieldset>
             {/* Show payments schedule on the screen. */}
-            <button type="submit">Submit</button>
+            <div class="form-field">
+              <button class="btn" type="submit">Submit</button>
+            </div>
           </form>
         </div>
       </div>

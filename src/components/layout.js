@@ -4,13 +4,12 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 import './layout.css'
-import './global.css'
 
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
-        site {
+        site {  
           siteMetadata {
             title
           }

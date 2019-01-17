@@ -64,3 +64,4 @@ tags
 node_modules
 public
 .cache
+temp_files
