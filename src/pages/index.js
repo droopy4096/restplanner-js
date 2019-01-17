@@ -24,12 +24,12 @@ export default class IndexPage extends React.Component {
 
   handleNext = event => {
     event.preventDefault()
-    alert (`${this.state.schedule} ${this.state.payStart} ${this.state.years} ${this.state.step}`)
+    alert (`${this.state.schedule} Schedule, Start Date: ${this.state.payStart}, Mortgage Period: ${this.state.years} years, Print with step ${this.state.step}`)
   }
 
   handleSubmit = event => {
     event.preventDefault()
-    alert (`${this.state.housePrice} ${this.state.interest} ${this.state.downpayment}`)
+    alert (`House Price $${this.state.housePrice}, Interest Rate: ${this.state.interest}%, Downpayment: $${this.state.downpayment}`)
   }
 
   render () {
